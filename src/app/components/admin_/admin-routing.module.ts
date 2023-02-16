@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { ContactsDetailsComponent } from './components/contacts-details/contacts-details.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/home_/home.component';
 
 const routes: Routes = [
   {

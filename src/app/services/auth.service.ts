@@ -32,4 +32,8 @@ export class AuthService {
     }
     return throwError(() => new Error('Faild login'));
   }
+
+  logOut(){
+    this.ruoter.navigate(['login'])
+  }
 }
